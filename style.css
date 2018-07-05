@@ -1,10 +1,32 @@
+body {
+  font-family: Montserrat;
+}
+
 nav {
   width: 100%;
-  height: 70px;
-  background: slategrey;
+  height: 107px;
+  background: #273648;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
-  float: right;
+  padding: 0 270px;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-left: 30vw;
+  width: 40vw;
+} 
+
+.title-navbar {
+  font-size: 35px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  width: 60vh;
 }
